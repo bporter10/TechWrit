@@ -1,39 +1,39 @@
 <html>
 <head>
-<link rel='stylesheet' href='index.css' type='text' />
+
 </head>
 <body>
-    <p>Insertion Sort</p>
+    <h1>Insertion Sort</h1>
 
-Introduction 
+<h3>Introduction</h3>
 
 Given an array of primitive data, insertion sort will sort each element from least to greatest or greatest to least. The algorithm iterates through the array, and places each element in the correct spot starting from the first element. Therefore, with each iteration, the sorted section of the array grows by one, until the end of the array is reached, at which point the entire array is sorted. The best case scenario for this algorithm’s efficiency is if the array is already sorted. The worst case is that the array is sorted in the opposite order intended. This tutorial uses Java to implement the algorithm. The implementation may look different in other languages. 
 
-List of Materials
+<h3>List of Materials</h3>
 
 --Java v7.0 or newer
 --Java environment of your choice (Eclipse, IntelliJ IDEA, etc.)
 
-FAQs
+<h3>FAQs</h3>
 
 Q>Can insertion sort be implemented in other languages?
 A>Yes it can.
 Q>Is insertion sort the only sorting algorithm that exists?
 A>No, insertion sort is just one well known example of many sorting algorithms.
 
-Troubleshooting/Where to Get Support
+<h3>Troubleshooting/Where to Get Support</h3>
 
 Most programming environments have a built in debugger, which is an extremely helpful tool in deducing errors within implemented algorithms like insertion sort.
 
-How to Contribute
+<h3>How to Contribute</h3>
 
 Please email porterwa@appstate.edu should you have anything to contribute.
 
-Licensing
+<h3>Licensing</h3>
 
 Permissions include commercial and personal use, distribution, and modification.
 
-Instructions
+<h3>Instructions</h3>
 
     1. Define the method header:
        
