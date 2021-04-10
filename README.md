@@ -1,8 +1,13 @@
-Insertion Sort
+<html>
+<head>
+<link rel='stylesheet' href='index.css' type='text' />
+</head>
+<body>
+    <p>Insertion Sort</p>
 
 Introduction 
 
-Given an array, insertion sort will sort each element from least to greatest or greatest to least. The algorithm iterates through the array, and places each element in the correct spot starting from the first element. Therefore, with each iteration, the sorted section of the array grows by one, until the end of the array is reached, at which point the entire array is sorted. The best case scenario for this algorithm’s efficiency is if the array is already sorted. The worst case is that the array is sorted is the opposite order intended. This tutorial uses Java to implement the algorithm. The implementation may look different in other languages. 
+Given an array of primitive data, insertion sort will sort each element from least to greatest or greatest to least. The algorithm iterates through the array, and places each element in the correct spot starting from the first element. Therefore, with each iteration, the sorted section of the array grows by one, until the end of the array is reached, at which point the entire array is sorted. The best case scenario for this algorithm’s efficiency is if the array is already sorted. The worst case is that the array is sorted in the opposite order intended. This tutorial uses Java to implement the algorithm. The implementation may look different in other languages. 
 
 List of Materials
 
@@ -79,3 +84,5 @@ Instructions
     }
     }
        Above is the completed method. The newly added line, “ar[x+1] =holder”, executes after the while loop has found the spot where the current element belongs.
+</body>
+</html>
