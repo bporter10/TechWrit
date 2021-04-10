@@ -21,7 +21,7 @@ A>Yes it can.
 Q>Is insertion sort the only sorting algorithm that exists?
 A>No, insertion sort is just one well known example of many sorting algorithms.
 
-<h3>Troubleshooting/Where to Get Support</h3>
+<h3>Troubleshooting</h3>
 
 Most programming environments have a built in debugger, which is an extremely helpful tool in deducing errors within implemented algorithms like insertion sort.
 
@@ -39,7 +39,7 @@ Permissions include commercial and personal use, distribution, and modification.
        
            public static void sort(int[] ar){}
            
-           The method is static so that an object does not have to be created to call it. The method does not return anything, rather it takes an array as input (int[] ar) and    adjusts the placement of the elements within the array. This tutorial uses an array of integers, but any other primitive data type will suffice (including char).
+           The method is static so that an object does not have to be created to call it. The method does not return anything, rather it takes an array as input (int[] ar) and    adjusts the placement of the elements within the array. This tutorial uses an array of integers, but any other primitive data type will work too (including char).
                        
     2. public static void sort(int[] ar){
            for (int i=0;i<ar.length;i++){}
@@ -74,15 +74,15 @@ Permissions include commercial and personal use, distribution, and modification.
        Inside the while loop, we set each element of the sorted section equal to the element just before it. This creates space for the current element(holder). The while loop will continue doing this until it finds an element less than holder (or until it reaches the very beginning of the array). After this line executes, x will decrease by one. This is accomplished by the two minus signs after x and ensures that the loop is making progress.
        
     7. public static void sort(int[] ar) {
-    for (int i=0;i<ar.length;i++){
-        int holder=ar[i];
-        int x = i - 1;
-        while(x >= 0 && holder < ar[x]) {
-            ar[x+1] = ar[x--];
-        }
-        ar[x+1] =holder;
-    }
-    }
+            for (int i=0;i<ar.length;i++){
+                int holder=ar[i];
+                int x = i - 1;
+                while(x >= 0 && holder < ar[x]) {
+                    ar[x+1] = ar[x--];
+                }
+                ar[x+1] =holder;
+            }
+       }
        Above is the completed method. The newly added line, “ar[x+1] =holder”, executes after the while loop has found the spot where the current element belongs.
 </body>
 </html>
